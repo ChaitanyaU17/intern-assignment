@@ -1,9 +1,13 @@
 import "./App.css";
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-purple-400 font-bold underline">Hello world!</h1>
+      <Header />
+      <SearchBar />
+      
     </>
   );
 }
