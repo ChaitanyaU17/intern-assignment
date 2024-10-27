@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <div class="dashboard-container">
+      
+      <div class="logo">
+        <span>☰<img src="./images/Group 45.png" alt="logo" /></span>
+      </div>
+      <!-- <button class="toggle-btn">☰ Menu</button> -->
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        
+        <nav class="nav-links">
+          <p><img src="./images/Home.png" alt="home" />Overview</p>
+          <p><img src="./images/Category.png" alt="course" />Course</p>
+          <p><img src="./images/Folder.png" alt="resources" />Resources</p>
+          <p><img src="./images/Chat.png" alt="message" />Message</p>
+          <p><img src="./images/Setting.png" alt="setting" />Setting</p>
+        </nav>
+        <div class="sitImg">
+          <img src="./images/Group.png" alt="sitImg" />
+        </div>
+
+        <div class="upgrade-plan">
+          <p>Upgrade to Pro</p>
+          <span
+            >Go to PRO
+            <button>
+              <img
+                src="images/chevrons-right 1.png"
+                alt="forword arrow"
+              /></button
+          ></span>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <header class="header">
+          <p>Hello <span>BRUNO</span>, welcome back!</p>
+        </header>
+
+        <section class="courses">
+          <h2>My Courses <span>View All</span></h2>
+          <div class="course-cards">
+            <div class="card blue">
+              <div class="card-content">
+                <p>French</p>
+                <p>35 lessons</p>
+                <svg
+                  class="progress-circle"
+                  width="52"
+                  height="52"
+                  viewBox="0 0 52 52"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle class="background-circle" cx="26" cy="26" r="24" />
+                  <path
+                    class="progress-path"
+                    stroke-dasharray="150.72"
+                    stroke-dashoffset="37.68"
+                    d="M50 26C50 30.7468 48.5924 35.3869 45.9553 39.3337C43.3181 43.2805 39.5698 46.3566 35.1844 48.1731C30.799 49.9896 25.9734 50.4649 21.3178 49.5388C16.6623 48.6128 12.3859 46.327 9.02944 42.9706C5.67298 39.6141 3.3872 35.3377 2.46115 30.6822C1.53511 26.0266 2.01039 21.201 3.82689 16.8156C5.64339 12.4302 8.71953 8.68188 12.6663 6.04473C16.6131 3.40758 21.2532 2 26 2"
+                  />
+                  <text class="progress-text" x="50%" y="50%">75%</text>
+                </svg>
+              </div>
+              <img
+                src="./images/Group1.png"
+                alt="Course Image"
+                class="card-image"
+              />
+            </div>
+
+            <div class="card orange">
+              <div class="card-content">
+                <p>Portuguese</p>
+                <p>30 lessons</p>
+                <svg
+                  class="progress-circle"
+                  width="52"
+                  height="52"
+                  viewBox="0 0 52 52"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle class="background-circle" cx="26" cy="26" r="24" />
+                  <path
+                    class="progress-path"
+                    stroke-dasharray="150.72"
+                    stroke-dashoffset="75.36"
+                    d="M50 26C50 30.7468 48.5924 35.3869 45.9553 39.3337C43.3181 43.2805 39.5698 46.3566 35.1844 48.1731C30.799 49.9896 25.9734 50.4649 21.3178 49.5388C16.6623 48.6128 12.3859 46.327 9.02944 42.9706C5.67298 39.6141 3.3872 35.3377 2.46115 30.6822C1.53511 26.0266 2.01039 21.201 3.82689 16.8156C5.64339 12.4302 8.71953 8.68188 12.6663 6.04473C16.6131 3.40758 21.2532 2 26 2"
+                  />
+                  <text class="progress-text" x="50%" y="50%">50%</text>
+                </svg>
+              </div>
+              <img src="./images/Group (1).png" alt="train" />
+            </div>
+            <div class="card green">
+              <div class="card-content">
+                <p>Italian</p>
+                <p>20 lessons</p>
+                <svg
+                  class="progress-circle"
+                  width="52"
+                  height="52"
+                  viewBox="0 0 52 52"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle class="background-circle" cx="26" cy="26" r="24" />
+                  <path
+                    class="progress-path"
+                    stroke-dasharray="150.72"
+                    stroke-dashoffset="113.04"
+                    d="M50 26C50 30.7468 48.5924 35.3869 45.9553 39.3337C43.3181 43.2805 39.5698 46.3566 35.1844 48.1731C30.799 49.9896 25.9734 50.4649 21.3178 49.5388C16.6623 48.6128 12.3859 46.327 9.02944 42.9706C5.67298 39.6141 3.3872 35.3377 2.46115 30.6822C1.53511 26.0266 2.01039 21.201 3.82689 16.8156C5.64339 12.4302 8.71953 8.68188 12.6663 6.04473C16.6131 3.40758 21.2532 2 26 2"
+                  />
+                  <text class="progress-text" x="50%" y="50%">25%</text>
+                </svg>
+              </div>
+              <img src="./images/Frame (1).png" alt="beam" />
+            </div>
+            <div class="card yellow">
+              <div class="card-content">
+                <p>German</p>
+                <p>40 lessons</p>
+                <svg
+                  class="progress-circle"
+                  width="52"
+                  height="52"
+                  viewBox="0 0 52 52"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle class="background-circle" cx="26" cy="26" r="24" />
+                  <path
+                    class="progress-path"
+                    d="M50 26C50 30.7468 48.5924 35.3869 45.9553 39.3337C43.3181 43.2805 39.5698 46.3566 35.1844 48.1731C30.799 49.9896 25.9734 50.4649 21.3178 49.5388C16.6623 48.6128 12.3859 46.327 9.02944 42.9706C5.67298 39.6141 3.3872 35.3377 2.46115 30.6822C1.53511 26.0266 2.01039 21.201 3.82689 16.8156C5.64339 12.4302 8.71953 8.68188 12.6663 6.04473C16.6131 3.40758 21.2532 2 26 2"
+                  />
+                  <text class="progress-text" x="50%" y="50%">75%</text>
+                </svg>
+              </div>
+              <img src="./images/Frame.png" alt="gate" />
+            </div>
+          </div>
+        </section>
+
+        <section class="planning">
+          <div class="planning-content">
+            <h2>Planning<span>View All</span></h2>
+            <div class="date">
+              <img src="./images/vs_calendar-alt.png" alt="calender" />
+              <text>20 March 2020</text>
+            </div>
+          </div>
+
+          <div class="plan-list">
+            <div class="plan-card">
+              <span class="book">
+                <img src="./images/book 1.png" alt="book" class="icon-left" />
+              </span>
+              <div class="planning-text">
+                <span>Reading - Beginner Topic 1</span>
+                <p>8:00 AM - 10 AM</p>
+              </div>
+
+              <img
+                src="./images/more-vertical 8.png"
+                alt="dot"
+                class="icon-right"
+              />
+            </div>
+            <div class="plan-card">
+              <span class="read">
+                <img src="./images/edit-2.png" alt="pencil" class="icon-left" />
+              </span>
+
+              <div class="planning-text">
+                <span>Reading - Beginner Topic 1</span>
+                <p>8:00 AM - 10 AM</p>
+              </div>
+              <img
+                src="./images/more-vertical 8.png"
+                alt="dot"
+                class="icon-right"
+              />
+            </div>
+            <div class="plan-card">
+              <span class="audio">
+                <img
+                  src="./images/headphones 1.png"
+                  alt="headphones"
+                  class="icon-left"
+                />
+              </span>
+
+              <div class="planning-text">
+                <span>Listening - Intermediate Topic 1</span>
+                <p>8:00 AM - 10 AM</p>
+              </div>
+              <img
+                src="./images/more-vertical 8.png"
+                alt="dot"
+                class="icon-right"
+              />
+            </div>
+            <div class="plan-card">
+              <span class="speaker">
+                <img
+                  src="./images/volume-1 1.png"
+                  alt="speaker"
+                  class="icon-left"
+                />
+              </span>
+
+              <div class="planning-text">
+                <span>Speaking - Beginner Topic</span>
+                <p>8:00 AM - 10 AM</p>
+              </div>
+
+              <img
+                src="./images/more-vertical 8.png"
+                alt="dot"
+                class="icon-right"
+              />
+            </div>
+            <div class="plan-card">
+              <span class="speaker">
+                <img
+                  src="./images/volume-1 1.png"
+                  alt="speaker"
+                  class="icon-left"
+                />
+              </span>
+
+              <div class="planning-text">
+                <span>Speaking - Beginner Topic</span>
+                <p>8:00 AM - 10 AM</p>
+              </div>
+              <img
+                src="./images/more-vertical 8.png"
+                alt="dot"
+                class="icon-right"
+              />
+            </div>
+            <div class="plan-card">
+              <span class="audio">
+                <img
+                  src="./images/headphones 1.png"
+                  alt="headphones"
+                  class="icon-left"
+                />
+              </span>
+
+              <div class="planning-text">
+                <span>Listening - Intermediate Topic 1</span>
+                <p>8:00 AM - 10 AM</p>
+              </div>
+              <img
+                src="./images/more-vertical 8.png"
+                alt="dot"
+                class="icon-right"
+              />
+            </div>
+            <div class="plan-card">
+              <span class="read">
+                <img src="./images/edit-2.png" alt="pencil" class="icon-left" />
+              </span>
+
+              <div class="planning-text">
+                <span>Grammar - Intermediate Topic</span>
+                <p>8:00 AM - 10 AM</p>
+              </div>
+              <img
+                src="./images/more-vertical 8.png"
+                alt="dot"
+                class="icon-right"
+              />
+            </div>
+            <div class="plan-card">
+              <span class="book">
+                <img src="./images/book 1.png" alt="book" class="icon-left" />
+              </span>
+
+              <div class="planning-text">
+                <span>Reading - Beginner Topic 1</span>
+                <p>8:00 AM - 10 AM</p>
+              </div>
+              <img
+                src="./images/more-vertical 8.png"
+                alt="dot"
+                class="icon-right"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Right Sidebar -->
+      <aside class="right-sidebar">
+        <div class="profile">
+          <img src="./images/clarity_notification-outline-badged.png" alt="notification" class="notification-icon"/>
+          <div class="profile-text">
+              <img src="./images/Rectangle 4.png" alt="profileIMG" class="profile-img"/>
+              <div class="profile-in">
+                <div class="profile-details">
+                  <h4>Bruno Fernandes</h4>
+                  <p>Basic Plan</p>
+                  
+              </div>
+              <img class="down-arrow" src="./images/chevron-down 1.png" alt="downArrow" />
+              </div>
+              
+          </div>
+          
+      </div>
+      
+        <section class="statistics">
+          <h3>Statistics</h3>
+          <div class="stat-cards">
+            <div class="stat-card">Courses Completed <p>|<span>02</span></p> </div>
+            <div class="stat-card">Total Points <p>|<span>250</span></p> </div>
+            <div class="stat-card">Courses In Progress <p>| <span>03</span></p> </div>
+            <div class="stat-card">Tasks Finished <p>|<span>05</span></p> </div>
+          </div>
+        </section>
+        <section class="activity">
+          <h3>Activity <span>Day</span> <span>Week</span> <span>Month</span></h3>
+          <!-- Placeholder for activity chart -->
+          <div class="activity-chart">
+            <!-- Add chart here -->
+            <img src="./images/Group 31.png" alt="chart" />
+          </div>
+        </section>
+      </aside>
+    </div>
+  </body>
+  <!-- <script src="./script.js"></script> -->
+</html>
