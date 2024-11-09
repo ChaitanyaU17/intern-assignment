@@ -15,30 +15,30 @@ This project is a Next.js application that uses Firebase for authentication, inc
 
 ## Features
 
-- **User Authentication**: Signup and login functionality using Firebase.
-- **Posts Display**: Fetches and displays posts from JSONPlaceholder API.
-- **Responsive Design**: Styled with Tailwind CSS and optimized for all screen sizes.
-- **Dark Theme**: Dark theme applied throughout the app.
-- **Logout Functionality**: Secure logout, clearing authentication tokens.
+- User Authentication: Signup and login functionality using Firebase.
+- Posts Display: Fetches and displays posts from JSONPlaceholder API.
+- Responsive Design: Styled with Tailwind CSS and optimized for all screen sizes.
+- Dark Theme: Dark theme applied throughout the app.
+- Logout Functionality: Secure logout, clearing authentication tokens.
 
 ## Technologies
 
-- **Next.js**: Framework for building React applications with server-side rendering.
-- **Firebase**: Used for authentication (signup, login).
-- **React Hooks**: `useState`, `useEffect`, etc., for managing state and side effects.
-- **Axios**: For making HTTP requests.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
-- **react-hot-toast**: Library for user notifications and toasts.
+- Next.js: Framework for building React applications with server-side rendering.
+- Firebase: Used for authentication (signup, login).
+- React Hooks: `useState`, `useEffect`, etc., for managing state and side effects.
+- Axios: For making HTTP requests.
+- Tailwind CSS: Utility-first CSS framework for styling.
+- react-hot-toast: Library for user notifications and toasts.
 
 ## Setup
 
 To set up the project on your local machine, follow these steps:
 
 1. **Clone the repository**
-   ```bash
+   
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
-   ```
+  
 
 2. **Install dependencies**
    ```bash
